@@ -1,7 +1,23 @@
 aid: savedo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/savedo.png
 name: Savedo
-description: Savedo is a company surfaced as a portfolio company of point-nine and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Savedo was a German fintech operating a consumer deposit marketplace that let savers in Germany
+  open fixed-term and savings accounts across multiple European partner banks from a single portal. Backed
+  by Point Nine, it was acquired by Deposit Solutions in 2017 and is now a subsidiary brand of Raisin SE
+  (WeltSparen). The Savedo customer portal was deactivated on 31 March 2022 and the brand no longer accepts
+  new customers; existing balances are administered via flatexDEGIRO Bank AG. Savedo published no public API,
+  developer portal, or SDKs. This profile is retained as a network lead surfaced from the Point Nine portfolio.
 url: https://raw.githubusercontent.com/api-evangelist/savedo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fintech
+- Banking
+- Savings
+- Deposits
+- Financial Services
+- Germany
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,12 @@ maintainers:
 common:
 - type: Website
   url: https://www.savedo.de
+- type: About
+  url: https://www.raisin.com/de-de/ueber-weltsparen/savedo/
+- type: DomainSecurity
+  url: security/savedo-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
