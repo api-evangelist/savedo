@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.savedo.de', status: 302, note: 'declared website redirects to https://www.raisin.com/de-de/ueber-weltsparen/savedo/ — a different registrable domain (savedo.de -> raisin.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/savedo.png
 name: Savedo
 description: Savedo was a German fintech operating a consumer deposit marketplace that let savers in Germany
