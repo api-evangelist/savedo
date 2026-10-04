@@ -51,7 +51,7 @@ tags:
 - Banking
 - Savings
 - Deposits
-- Financial-Services
+- Financial Services
 - Germany
 - Defunct
 tags_raw:
@@ -63,6 +63,7 @@ tags_raw:
 - Financial Services
 - Germany
 - Defunct
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
